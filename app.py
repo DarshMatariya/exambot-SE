@@ -6,6 +6,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_groq import ChatGroq
 import os, re
+from textwrap import dedent
 
 st.set_page_config(page_title="Exam bot", page_icon="🧠")
 
